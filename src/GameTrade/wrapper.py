@@ -134,7 +134,7 @@ def like(url, token, remember_token, session_id):
         'Accept': '*/*;q=0.5, text/javascript, application/javascript, application/ecmascript, application/x-ecmascript',
         'Accept-Language': 'ja,en-US;q=0.7,en;q=0.3',
         'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
-        'Referer': 'https://gametrade.jp/monst/exhibits',
+        'Referer': 'https://gametrade.jp/',
         'X-CSRF-Token': token,
         'X-Requested-With': 'XMLHttpRequest',
         'Origin': 'https://gametrade.jp',
