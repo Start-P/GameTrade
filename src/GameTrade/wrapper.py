@@ -24,7 +24,6 @@ def get_cookie():
         'Connection': 'keep-alive',
     }
     response = requests.get(base_url + "signin", headers=headers)
-    print(response.cookies)
     return response.cookies.get_dict()["_session_id"]
 
 def login(email, password):
